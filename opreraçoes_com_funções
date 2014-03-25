@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+
+int soma(int a, int b);
+
+
+
+int main(void){
+
+	int a,b;
+	
+	printf("\n\nDigite aqui: ");
+	scanf("%d",&a);
+	printf("Digite aqui: ");
+	scanf("%d",&b);
+	soma(a,b);
+	printf("\n\n resultado e: %d\n\n",soma(a,b));
+
+	
+return 0;
+
+}
+
+int soma(int a, int b){
+
+	return a * b;
+	
+}
